@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>
+            Jeu de rôle
+        </title>
+        <script src="js/site.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/site.css">
+    </head>
+    <body onload="ajoutTableauPersonnages(this)">
+        <header>
+        <div class="menusButton">
+            <a href="index.html" class="button1"><h2>Accueil</h2></a>
+            <a href="Personnages.html" class="button2"><h2>Personnages</h2></a>
+            <a href="histoire.html" class="button3"><h2>Histoire</h2></a>
+        </div>
+        </header>
+
+        <h1 class="titre">Création de personnages</h1><br>
+        <div class="formulaires">
+            <form name="formulairePersonnage" id="formulairePersonnage">
+                Nom personnage : <input type="text" placeholder="Nom" name="nomPersonnage" id="nomPersonnage" required><br>
+                Prénom personnage : <input type="text" placeholder="Prénom" name="prenomPersonnage" id="prenomPersonnage" required><br>
+                Age personnage : <input type="number" placeholder="Age" name="agePersonnage" id="agePersonnage" required><br>
+                Description :  <input type="text" placeholder="Description" name="descPersonnage" id="descPersonnage" required><br>
+                Capacité Combat : <input type="number" placeholder="Capcmbt en nombre" name="capcmbtPersonnage" id="capcmbtPersonnage" required><br>
+                Capacité Tir : <input type="number" placeholder="CapTir en nombre" name="capTirPersonnage" id="capTirPersonnage" required><br>
+                Force : <input type="number" placeholder="Force en nombre" name="forcePersonnage" id="forcePersonnage" required><br>
+                Agilité : <input type="number" placeholder="Agilité en nombre" name="agilitePersonnage" id="agilitePersonnage" required><br>
+                Social : <input type="number" placeholder="Social en nombre" name="socialPersonnage" id="socialPersonnage" required><br>
+            </form>
+
+            <form id="formulaireItems">
+                Intelligence : <input type="number" placeholder="Intelligence en nombre" name="intPersonnage" id="intPersonnage" required><br>
+                Perception : <input type="number" placeholder="Perception en nombre" name="perPersonnage" id="perPersonnage" required><br>
+                Stress : <input type="number" placeholder="Stress en nombre" name="stressPersonnage" id="stressPersonnage" required><br>
+                Spécialité n°1 : <input type="text" placeholder="spécial" id="spec1" required><br>
+                Spécialité n°2 : <input type="text" placeholder="spécial" id="spec2" required><br>
+                Spécialité n°3 : <input type="text" placeholder="spécial" id="spec3" required><br>
+                Objet n°1 : <input type="text" placeholder="objet" id="item1"><br>
+                Objet n°2 : <input type="text" placeholder="objet" id="item2"><br>
+                Objet n°3 : <input type="text" placeholder="objet" id="item3"><br>
+            </form>
+        </div>
+        <div class="buttonForm">
+            <input type="button" value="Valider" name="boutonValider" onclick="ajouterPersonnage()">
+            <input type="button" value="Effacer" name="boutonEffacer" onclick="effacerFormulaire()"><br><br>
+        </div>
+        <div class="de">
+            <h1 class="titre">Lancement de dé</h1>
+            <input type="button" value="Lancer" onclick="lancerDe()" id="buttonLancerDe">
+            <span id="affichageResultatDe">0</span><br><br>
+            <span class="italique">Lancement d'un dé <input type="number" placeholder="faces" id="nombreFace">faces + <input type="number" placeholder="plus" id="nombrePlus"> <br>(utilisez ce nombre dans les cases qui en demandent un)</span>
+            
+        </div>
+        <hr>
+        <div id="reponses">
+            <p><strong><h2>Réponses</h2></strong></p>
+            <div id="reponsesAffichage" style="color : blue; font-weight: bold;">
+            </div>
+            <br>
+          </div>        
+          <hr>
+    <section class="tableauPersos">
+        
+    </section>
+    </body>
+</html>

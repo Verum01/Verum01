@@ -1,0 +1,213 @@
+body{
+    background-image: url(../images/fond4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#nombreFace{
+    width: 3%;
+}
+
+.capacites{
+    margin-left: 9.5%;
+    width: 27%;
+    text-align: center;
+}
+
+.gras{
+    font-weight: bold;
+    color: darkred;
+}
+
+.caracteristiques{
+    margin-left: 9.5%;
+    width: 27%;
+    text-align: center;
+}
+
+.identite{
+    width: 27%;
+    text-align: center;
+}
+
+.piedPage{
+    font-style: italic;
+    text-align: center;
+}
+
+.cadre{
+    border: black 2px solid;
+    font-size: 25px;
+    display: flex;
+    height: 2%;
+    width: 100%;
+}
+
+#nombrePlus{
+    width: 3%;
+}
+
+.actes{
+    font-size: 20px;
+}
+
+.titreH2bis{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titreASuivre{
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+}
+
+.test{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+}
+
+.titreH2{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: overline;
+    color: darkblue;
+}
+
+.tableauTrier{
+    align-items: center;
+    text-align: center;
+}
+
+.bouttonTrierAge{
+    margin-left: 10px;
+}
+
+.bouttonTrierFamille{
+    margin-right: 10px;
+}
+
+.menusButton{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-bottom: lightblue 2px solid;
+    border-top: lightblue 2px solid;
+}
+
+.de{
+    text-align: center;
+}
+
+.italique{
+    font-style: italic;
+}
+
+#affichageResultatDe{
+    border: black 2px solid;
+    background-color: white;
+    margin-left: 20px;
+    padding: 6px;
+    font-size: 150%;
+}
+
+table{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: black 3px solid;
+}
+
+th{
+    border: black 3px solid;
+    text-align: center;
+    align-items: center;
+}
+
+.titre{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+.button1, .button2, .button3{
+    color: blue;
+}
+
+form{
+    padding : 5px;
+}
+
+.accueilTexte{
+    font-size: 20px;
+    text-align: center;
+}
+
+.attention{
+    font-weight: bold;
+    color: darkred;
+}
+
+.button1{
+    margin-left: 30%;
+    width: 10%;
+}
+
+.button2{
+    margin-left: 5%;
+    width: 10%;
+}
+
+.button3{
+    margin-left: 5%;
+    width: 10%;
+    padding-right: 30%;
+}
+
+#formulairePersonnage{
+    margin: 0 12% 0 0;
+}
+
+#buttonActualiser{
+    text-align: center;
+}
+
+#formulaireItems{
+    height: 100%;
+}
+
+.buttonForm{
+    text-align: center;
+}
+
+.formulaires{
+    display: flex;
+    height: 2%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titrePerso{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
